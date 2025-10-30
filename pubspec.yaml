@@ -21,7 +21,9 @@ dependencies:
   # Core Feature Dependencies
   google_maps_flutter: ^2.6.1 # For Geolocation & Mapping (Phase 2)
   geolocator: ^12.0.0 # For getting real-time GPS location
+  geocoding: ^2.0.0 # Use to get human-readable address from coordinates
   firebase_messaging: ^15.0.1 # For Push Notifications
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:

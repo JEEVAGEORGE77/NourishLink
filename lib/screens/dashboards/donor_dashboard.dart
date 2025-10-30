@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nourish_link/screens/donation_post_screen.dart';
 import '../../../services/auth_service.dart';
 
 class DonorDashboard extends StatelessWidget {
@@ -62,7 +63,12 @@ class DonorDashboard extends StatelessWidget {
 
               ElevatedButton.icon(
                 onPressed: () {
-                  // TODO: Implement Navigation to the Donation Posting Screen
+                  // FIX: Implement Navigation to the Donation Posting Screen
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const DonationPostScreen(),
+                    ),
+                  );
                 },
                 icon: const Icon(Icons.add_circle, size: 30),
                 label: const Text(
