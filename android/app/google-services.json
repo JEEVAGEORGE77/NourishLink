@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171479119413",
+    "project_id": "nourishlink-53230",
+    "storage_bucket": "nourishlink-53230.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171479119413:android:4efe1e7d354db497c0237c",
+        "android_client_info": {
+          "package_name": "com.example.nourish_link"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Grhkf-KB_MmRbAp2CiGnOuTKvhmDwJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
